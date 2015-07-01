@@ -1,0 +1,7 @@
+.brackets-stylus-hints .matched-hint {
+    font-weight: normal;
+}
+
+.dark .brackets-stylus-hints .matched-hint {
+    color: #ccc;
+}

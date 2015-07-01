@@ -1,0 +1,13 @@
+{
+    "name": "io.brackets.stylus-code-hints",
+    "title": "Brackets Stylus Code Hints",
+    "description": "Provides Code Hinting in Stylus files",
+    "homepage": "https://github.com/sprintr/brackets-stylus-code-hints",
+    "version": "0.1.0",
+    "author": "Amin Ullah Khan <aminullah@outlook.com> (https://github.com/sprintr)",
+    "licence": "MIT",
+    "engines": {
+        "brackets": ">=1.4.0"
+    },
+    "keywords": ["stylus", "code", "hints", "styl"]
+}
