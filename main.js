@@ -105,8 +105,7 @@ define(function (require, exports, module) {
         
         if (this.contextInfo && this.contextInfo.tokenType) {
             query = this.contextInfo.token.string.substr(0, this.contextInfo.offset).trimRight();
-            
-            console.log(this.contextInfo.tokenType);
+
             if (this.contextInfo.tokenType === StylusUtils.TOKEN_KEY) {
                 hints = $.map(Object.keys(CSSProperties), function (prop) {
                     var match = StringMatch.stringMatch(prop, query, stringMatcherOptions);
